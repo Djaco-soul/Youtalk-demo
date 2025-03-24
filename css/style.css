@@ -22,6 +22,7 @@ header, main {
     margin: 1em;
     font-family: "montserrat";
 }
+
 .content {
     margin-top: 1em;
 }
@@ -118,6 +119,7 @@ button:hover {
 .header__button:hover {
     background: #b0ebeb;
 }
+
 .header__button:active {
     color: #b0ebeb;
     background: #03b2a5;
@@ -135,6 +137,7 @@ button:hover {
     border: none;
     padding: 16px;
 }
+
 .header__burger-button:hover {
     background: #b0ebeb;
     border-radius: 5px;
@@ -163,7 +166,7 @@ button:hover {
     transform: translateY(-5px);
 }
 
-.header__burger-button__active .header__burger-button__item{
+.header__burger-button__active .header__burger-button__item {
     height: 0;
 }
 
@@ -171,7 +174,7 @@ button:hover {
     transform: rotate(45deg);
 }
 
-.header__burger-button__active .header__burger-button__item::after{
+.header__burger-button__active .header__burger-button__item::after {
     transform: rotate(-45deg);
 }
 
@@ -193,11 +196,13 @@ button:hover {
     flex-direction: column;
     padding-left: 2em;
 }
+
 .smallWidth .header__active .header__nav__item {
     display: block;
     margin: 0;
     color: #333333;
 }
+
 .smallWidth .header__active .header__button {
     display: flex;
 }
@@ -427,12 +432,14 @@ h2 {
     border: none;
     border-radius: 5px;
 }
+
 .layout__button button:hover,
 .sidebar__payment button:hover,
 .sidebar__preview button:hover,
 .sidebar__offer button:hover {
     background: #76d6ce;
 }
+
 .layout__button button:active,
 .sidebar__payment button:active,
 .sidebar__preview button:active,
@@ -749,9 +756,11 @@ ul {
 .sidebar__payment p:last-of-type {
     font-size: 0.875rem;
 }
+
 .sidebar__payment button {
     margin-top: auto;
 }
+
 .sidebar__preview {
     position: relative;
     display: flex;
@@ -828,6 +837,7 @@ ul {
 .sidebar .sidebar__sentiment {
     padding: 0;
 }
+
 .sidebar__sentiment > img {
     height: 70%;
 }
@@ -881,6 +891,7 @@ ul {
     h1 {
         font-size: 2rem;
     }
+
     .layout__content__item > div:last-of-type {
         min-height: 260px;
     }
@@ -905,6 +916,7 @@ ul {
     body {
         font-size: 1.5rem;
     }
+
     .header__logo {
         width: 51px;
         height: 36px;
@@ -1002,6 +1014,7 @@ ul {
     .header__nav a {
         color: #333333;
     }
+
     .header__nav__logo {
         margin-right: 0;
     }
@@ -1041,20 +1054,21 @@ ul {
     .layout__content > div:nth-of-type(n + 3) > div:last-of-type {
         height: 253px;
     }
+
     .article {
         grid-column: 1 / 10;
     }
-    .sidebar__payment > img {
-        width: 130%;
-    }
+
     .sidebar {
         grid-column: 10 / 13;
         display: flex;
         flex-direction: column;
     }
+
     .sidebar__sentiment {
         background-image: url("../img/article/back5.png");
     }
+
     .sidebar__offer img:first-of-type {
         right: -10%;
         bottom: -15%;
@@ -1092,6 +1106,7 @@ ul {
     .basement__out {
         grid-column: span 4;
     }
+
     .article {
         grid-column: 1 / 9;
     }

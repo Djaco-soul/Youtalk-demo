@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8"/>
-    <script src="js/script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     <link
@@ -12,28 +11,43 @@
     <link rel="stylesheet" href="css/style.css"/>
     <title>YouTalk-Blog</title>
 </head>
-<body>
-<header class="header">
+<body id="body">
+<header id="header" class="header">
     <div class="header-box">
-        <nav class="header__nav">
-            <a href="#" class="header__nav__logo">
+        <div>
+            <a href="#" class="header__logo">
                 <img src="img/logo.svg" alt="Youtalk logo" class="header__logo"/>
             </a>
-            <a href="#" class="header__nav__item">О нас</a>
-            <a href="#" class="header__nav__item">Тарифы</a>
-            <a href="#" class="header__nav__item">Для бизнеса</a>
-            <a href="#" class="header__nav__item">Психологам</a>
-            <a href="#" class="header__nav__item">Сертификаты</a>
-            <a href="#" class="header__nav__item">Материалы</a>
-            <a href="#" class="header__nav__item">FAQ</a>
-            <button class="header__button">Подобрать психолога</button>
+            <nav class="header__nav">
+                <a href="#" class="header__nav__item">О нас</a>
+                <a href="#" class="header__nav__item">Тарифы</a>
+                <a href="#" class="header__nav__item">Для бизнеса</a>
+                <a href="#" class="header__nav__item">Психологам</a>
+                <span id="certificates" class="header__nav__item">Сертификаты</span>
+                <div class="header__nav__item-box">
+                    <ul>
+                        <li class="header__nav__sub-item"><a href="#">First certificate</a></li>
+                        <li class="header__nav__sub-item"><a href="#">Second certificate</a></li>
+                        <li class="header__nav__sub-item"><a href="#">Third certificate</a></li>
+                    </ul>
+                </div>
+                <span id="materials" class="header__nav__item">Материалы</span>
+                <div class="header__nav__item-box">
+                    <ul>
+                        <li class="header__nav__sub-item"><a href="#">First material</a></li>
+                        <li class="header__nav__sub-item"><a href="#">Second material</a></li>
+                        <li class="header__nav__sub-item"><a href="#">Third material</a></li>
+                    </ul>
+                </div>
+                <a href="#" class="header__nav__item">FAQ</a>
+                <button class="header__button">Подобрать психолога</button>
+            </nav>
             <div class="header__burger-button__box">
-                <button class="header__burger-button">
+                <button id="burger" class="header__burger-button">
                     <span class="header__burger-button__item"></span>
                 </button>
             </div>
-        </nav>
-
+        </div>
     </div>
 </header>
 <main class="content">
@@ -349,5 +363,6 @@
         </div>
     </div>
 </footer>
+<script src="js/script.js"></script>
 </body>
 </html>
