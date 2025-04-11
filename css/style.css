@@ -308,6 +308,10 @@ h1 {
     box-shadow: #16c8bb 0 0 0 2px inset;
 }
 
+.layout__list button:active {
+    background: #b0ebeb;
+}
+
 .layout__list__marker {
     background: linear-gradient(
             to bottom,
