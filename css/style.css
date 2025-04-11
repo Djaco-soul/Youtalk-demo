@@ -283,7 +283,8 @@ h1 {
     scrollbar-width: none;
 }
 
-.layout__list__item {
+.layout__list__item,
+.layout__list__marker {
     border: none;
     box-shadow: #c1c5cd 0 0 0 1px inset;
     border-radius: 25px;
@@ -307,7 +308,7 @@ h1 {
     box-shadow: #16c8bb 0 0 0 2px inset;
 }
 
-.layout__content__item .layout__list__item {
+.layout__list__marker {
     background: linear-gradient(
             to bottom,
             rgba(255, 255, 255, 0.5),
